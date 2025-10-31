@@ -5,10 +5,10 @@ users = {
     "alice": "qwerty"
 }
 
-username = input("Username: ")
-password = input("Password: ")
+username = input("Enter your Username: ")
+password = input("Enter your Password: ")
 
 if username in users and users[username] == password:
-    print(f"✅ Welcome, {username}!")
+    print(f"✅ Welcome, {username}! You have successfully logged in.")
 else:
     print("❌ Invalid login.")
